@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+body{
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    margin: 100px;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Kumbh Sans", sans-serif;
+}
+.bg img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#line{
+    width: 348px;
+    margin: 0px;
+}
+.last{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+    margin: 0;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.follow p{
+    font-size: 12px;
+    margin-top: -18px;
+    color: hsl(227, 10%, 46%);
+}
+.like{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.like p{
+    font-size: 12px;
+    margin-top: -18px;
+    color: hsl(227, 10%, 46%);
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo p{
+    font-size: 12px;
+    margin-top: -18px;
+    color: hsl(227, 10%, 46%);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.age{
+    color: hsl(227, 10%, 46%);
+}
+.place{
+    display: flex;
+    justify-content: center;
+    color:hsl(227, 10%, 46%);
+    margin-top: -10px;
+}
+.pic img{
+    border-radius: 50%;
+    border:4px solid white;
+    height: 60px;
+    margin-top: -35px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.birth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -15px;
+}
+.name{
+    font-weight: 700;
+}
